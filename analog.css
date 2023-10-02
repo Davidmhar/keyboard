@@ -1,0 +1,72 @@
+html, body{
+    font-size: 85%;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: o.15em;
+    background-image: url(pianobg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 1.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+}
+img.img2{
+    box-shadow: 2px 2px 5px rgb(28, 27, 27);
+}
+#page {
+    max-width: 1040px;
+    min-width: 920px;
+    margin: 10px auto 10px auto;
+    padding: 40px;
+    border: 4px double #000;
+    background-color: #ffffff;
+}
+
+#logo {
+width: 150px;
+margin: 10px auto 10px auto;
+}
+ul{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid rgb(80, 78, 78);
+    border-bottom: 1px solid rgb(85, 82, 82);
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 9px;
+}
+
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+p.text {
+    border: 1px solid black;
+    padding: 15px;
+    width: 570px;
+    margin: 0px auto 0px auto;
+}
+
+a{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+    font-size: larger;
+}
+
+a:hover, a.on{
+    color: black;
+    background-color: #8a8a87;
+    border-radius: 25px;
+}
